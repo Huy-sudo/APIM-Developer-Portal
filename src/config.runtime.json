@@ -1,0 +1,5 @@
+{
+    "environment": "runtime",
+    "managementApiUrl": "https://epl-pcs-apim.management.azure-api.net",
+    "backendUrl": "https://epl-pcs-apim.developer.azure-api.net"
+}
