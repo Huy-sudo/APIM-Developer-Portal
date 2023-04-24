@@ -18,6 +18,8 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
+      - name: install dependencies
+        run: npm install --no-save bufferutil utf-8-validate
       - name: Build And Deploy
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
