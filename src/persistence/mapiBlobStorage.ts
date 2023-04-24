@@ -58,7 +58,7 @@ export class MapiBlobStorage implements IBlobStorage {
             });
         }
 
-        this.storageClient = new AzureBlobStorage(storageSettingsProvider);
+        this.storageClient = new AzureBlobStorage(storageSettingsProvider, this.logger);
 
         return this.storageClient;
     }
@@ -69,7 +69,7 @@ export class MapiBlobStorage implements IBlobStorage {
      */
     public async listBlobs?(blobPrefix?: string): Promise<string[]> {
         const client = await this.getStorageClient();
-        return await client.listBlobs();
+        return await client.listBlobs(blobPrefix);
     }
 
     /**
