@@ -36,8 +36,8 @@ const functionConfig = {
             })
         ]
     },
+    externals: [/node_modules/, 'bufferutil', 'utf-8-validate'],
     module: {
-        externals: [nodeExternals()],
         rules: [
             {
                 test: /\.scss$/,
