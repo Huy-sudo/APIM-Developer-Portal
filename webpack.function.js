@@ -36,8 +36,8 @@ const functionConfig = {
   },
   externals: 
     {
-      "utf-8-validate": "commonjs utf-8-validate",
-      "bufferutil": "commonjs bufferutil",
+        bufferutil: "bufferutil",
+        "utf-8-validate": "utf-8-validate",
     },
   module: {
     rules: [
