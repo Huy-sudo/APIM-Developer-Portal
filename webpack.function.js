@@ -36,7 +36,12 @@ const functionConfig = {
             })
         ]
     },
-    externals: [/node_modules/, 'bufferutil', 'utf-8-validate'],
+    externals: [
+        {
+          'utf-8-validate': 'commonjs utf-8-validate',
+          bufferutil: 'commonjs bufferutil',
+        },
+      ],
     module: {
         rules: [
             {
