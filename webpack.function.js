@@ -4,6 +4,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const runtimeConfig = require("./webpack.runtime");
+const nodeExternals = require('webpack-node-externals');
 
 
 const functionConfig = {
@@ -36,6 +37,7 @@ const functionConfig = {
         ]
     },
     module: {
+        externals: [nodeExternals()],
         rules: [
             {
                 test: /\.scss$/,
