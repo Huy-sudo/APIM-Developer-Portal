@@ -2,6 +2,6 @@
     "environment": "development",
     "managementApiUrl": "https://epl-pcs-apim.management.azure-api.net",
     "managementApiAccessToken": "SharedAccessSignature integration&20230518083128&u2UROjJM5GktEWMZ4rZb4EGGWonjZ/12C7eKd30reBFE4QVqP1mv5orTnjFrLKcx6LVKtJgJmJmFWKw8t97Utw==",
-    "backendUrl": "https://epl-pcs-apim.developer.azure-api.net",
+    "backendUrl": "http://app-gw-dev-rosen.westeurope.cloudapp.azure.com/portal",
     "useHipCaptcha": false
 }
