@@ -1,5 +1,5 @@
 {
     "environment": "runtime",
-    "managementApiUrl": "https://epl-pcs-apim.management.azure-api.net",
+    "managementApiUrl": "http://app-gw-dev-rosen.westeurope.cloudapp.azure.com:3000",
     "backendUrl": "https://epl-pcs-apim.developer.azure-api.net"
 }
