@@ -1,5 +1,5 @@
 {
     "environment": "runtime",
-    "managementApiUrl": "http://app-gw-dev-rosen.westeurope.cloudapp.azure.com:3000",
+    "managementApiUrl": "https://app-gw-dev-rosen.westeurope.cloudapp.azure.com:3000",
     "backendUrl": "http://app-gw-dev-rosen.westeurope.cloudapp.azure.com:8080"
 }
