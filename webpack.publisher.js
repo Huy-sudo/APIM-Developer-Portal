@@ -86,7 +86,7 @@ const publisherConfig = {
 };
 
 const publisherRuntimeConfig = merge(runtimeConfig, {
-    entry: { "styles/theme": `./src/themes/website/styles/styles.scss` },
+    entry: { "styles/theme": `./src/themes/publisher/assets/styles/theme.css` },
     output: { "path": path.resolve(__dirname, "dist/publisher/assets") }
 });
 

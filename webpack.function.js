@@ -13,8 +13,8 @@ const functionConfig = {
     __filename: false,
   },
   entry: {
-    "publish/index": ["./examples/function/publish/index.ts"],
-    "publish/assets/styles/theme": [`./src/themes/website/styles/styles.scss`],
+    "publish/index": ["./src/themes/publisher/assets/page.html"],
+    "publish/assets/styles/theme": [`./src/themes/publisher/assets/styles/theme.css`],
   },
   output: {
     filename: "./[name].js",
